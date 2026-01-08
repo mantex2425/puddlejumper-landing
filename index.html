@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Puddle Jumper - Smart Rideshare Decision Engine</title>
-    <link rel="icon" type="image/png" href="frog_logo.png">
+    <link rel="icon" type="image/webp" href="frog_logo.webp">
     <style>
         * {
             margin: 0;
@@ -35,19 +35,18 @@
         }
 
         .logo {
-            width: 180px;
-            height: 180px;
-            border-radius: 36px;
-            box-shadow: 0 8px 32px rgba(76, 175, 80, 0.3);
+            width: 200px;
+            height: 200px;
+            filter: drop-shadow(0 8px 24px rgba(76, 175, 80, 0.4));
             animation: glow 3s ease-in-out infinite alternate;
         }
 
         @keyframes glow {
             from {
-                box-shadow: 0 8px 32px rgba(76, 175, 80, 0.2);
+                filter: drop-shadow(0 8px 24px rgba(76, 175, 80, 0.3));
             }
             to {
-                box-shadow: 0 8px 48px rgba(76, 175, 80, 0.5);
+                filter: drop-shadow(0 12px 36px rgba(76, 175, 80, 0.6));
             }
         }
 
@@ -175,7 +174,7 @@
 <body>
     <div class="container">
         <div class="logo-container">
-            <img src="frog_logo.png" alt="Puddle Jumper Logo" class="logo">
+            <img src="frog_logo.webp" alt="Puddle Jumper Logo" class="logo">
         </div>
 
         <h1>Puddle Jumper</h1>
